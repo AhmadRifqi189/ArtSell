@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Open Komisi Gambar</title>
+  <link rel="stylesheet" href="sty.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎨 Open Komisi Gambar</h1>
+    <p>Aku membuka jasa gambar tradi sesuai request kamu! Bisa dari referensi atau imajinasi ✨</p>
+
+    <div id="gallery" class="gallery">
+
+    </div>
+
+    <div class="order">
+      <h3>💰 Harga:</h3>
+      <ul>
+        <li>Anime/Cartoon hitam putih: Rp8.000–Rp10.000</li>
+        <li>Realis hitam putih: Rp15.000</li>
+        <li><em>Harga tergantung kualitas</em></li>
+      </ul>
+      <h3>📩 Pesan Sekarang:</h3>
+      <a href="mailto:namamu@email.com?subject=Komisi Gambar" class="button email">Via Email</a>
+      <a href="https://wa.me/6281234567890?text=Saya%20Mau%20Komisi%20Gambar%20%F0%9F%8E%A8%E2%9C%A8" class="button whatsapp" target="_blank">Via WhatsApp</a>
+    </div>
+
+    <h2 class="komentar-title">Komentar Pengunjung</h2>
+    <form id="commentForm" class="komentar-form">
+      <input type="text" id="username" placeholder="Nama Kamu..." required>
+      <textarea id="commentText" placeholder="Tulis komentarmu di sini..." required></textarea>
+      <button type="submit">Kirim Komentar</button>
+    </form>
+
+    <div id="commentList" class="komentar-list"></div>
+
+    <footer>
+      <p>&copy; Commision by Ahmad Rifqi</p>
+    </footer>
+  </div>
+
+  <script src="jav.js"></script>
+</body>
+</html>
